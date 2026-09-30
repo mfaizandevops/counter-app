@@ -1,0 +1,127 @@
+/* src/index.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center;     /* Vertically center */
+  min-height: 100vh;       /* Full screen height */
+  background-color: #f5f5f5;
+}
+
+/* App Level Container Layout */
+.container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  min-width: 320px;
+}
+
+/* App Title */
+.app-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #1a1a1a; /* Extra slash fixed */
+}
+
+/* Number Counter Display */
+.count-display {
+  font-size: 52px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #222222;
+}
+
+/* Status / Notification Message */
+.status-message {
+  color: #2196F3;
+  font-weight: bold;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+/* Button Group Layouts */
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.storage-group {
+  margin-top: 15px;
+}
+
+/* Base Button Styles */
+.btn {
+  padding: 10px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+  background-color: #ffffff;
+}
+
+.btn:active {
+  transform: scale(0.96);
+}
+
+/* Specific Button Color Variants */
+.btn-increment {
+  border-color: #4CAF50;
+  color: #4CAF50;
+}
+
+.btn-increment:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-decrement {
+  border-color: #f44336;
+  color: #f44336;
+}
+
+.btn-decrement:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-reset {
+  border-color: #888888;
+  color: #555555;
+}
+
+.btn-reset:hover {
+  background-color: #888888;
+  color: white;
+}
+
+.btn-save {
+  background-color: #2196F3;
+  color: white;
+}
+
+.btn-save:hover {
+  background-color: #1976D2;
+}
+
+.btn-load {
+  background-color: #9C27B0;
+  color: white;
+}
+
+.btn-load:hover {
+  background-color: #7B1FA2;
+}
